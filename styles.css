@@ -1,0 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+a {
+    color: brown;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+}
