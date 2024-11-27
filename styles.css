@@ -1,13 +1,26 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
+
 }
 
 a {
-    color: brown;
+    color: saddlebrown;
 }
 
 img {
     max-width: 500px;
     height: auto;
+    border: 10px saddlebrown;
+    border-radius: 20px;
 }
+
+.whole-page {
+    margin: 40px;
+}
+
+.recipes {
+    font-size: large
+    
+}
+
