@@ -4,23 +4,49 @@
 
 }
 
+.whole-page {
+    margin: 40px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
-    color: saddlebrown;
+    color: rgb(130, 59, 9);
 }
 
 img {
-    max-width: 500px;
+    display: flex;
+    flex: 1 1 0;
+    max-width: 480px;
     height: auto;
     border: 10px saddlebrown;
-    border-radius: 20px;
+    margin-top: 50px;
 }
 
-.whole-page {
-    margin: 40px;
+.images {
+    margin-top: 35px;
+    display: inline-block;
+    flex: 1 1 0;
+    max-width: 800px;
+    min-width: 480px;
 }
 
 .recipes {
-    font-size: large
-    
+    font-size: large;
+    margin-top: -20px;
+    padding-top: 0px;
+    margin-bottom: -50px;
 }
 
+h2 {
+    background-color: rgb(211, 171, 142);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span {
+    display: block;
+}
